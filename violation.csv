@@ -1,0 +1,2 @@
+resource_id,resource_type,resource_name,full_name,rule_index,rule_name,violation_type,violation_data
+test-bucket-for-violation-05,bucket,bucket/test-bucket-for-violation-05,project/acn-forseti-engine-05/bucket/test-bucket-for-violation-05/,1,Prevent public users from having access to buckets via IAM,IAM_POLICY_VIOLATION,"{""full_name"": ""project/acn-forseti-engine-05/bucket/test-bucket-for-violation-05/"", ""member"": ""allUsers:None"", ""role"": ""roles/storage.objectAdmin""}"
